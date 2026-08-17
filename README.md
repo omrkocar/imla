@@ -1,8 +1,7 @@
 # imla
 
 Push-to-talk dictation for Windows. Hit the hotkey, talk, hit it again. What you
-said gets transcribed and pasted into whatever window has focus. (إملاء, imlâ:
-dictation.)
+said gets transcribed and pasted into whatever window has focus.
 
 I wrote it to dictate prompts into Claude Code, but it works anywhere Ctrl+V
 does.
@@ -112,39 +111,3 @@ on `WM_HOTKEY`. PortAudio captures 16 kHz mono int16 into an in-memory WAV, no
 temp files. faster-whisper transcribes it. The text goes onto the clipboard
 through the Win32 API, Ctrl+V goes out via `SendInput`, and whatever was on your
 clipboard before gets put back a moment later.
-
-Three things I got wrong on the first pass:
-
-- Transcription needs its own thread. Inline, it blocks the message loop and the
-  hotkey is dead for however long Whisper takes.
-- You have to wait for Ctrl and Alt to come back up before sending Ctrl+V. The
-  hotkey modifiers are still held, and Ctrl+V with Alt down is Ctrl+Alt+V.
-- The CUDA DLLs have to be on `PATH` before faster-whisper is imported.
-  CTranslate2 loads cuBLAS and cuDNN lazily with a bare `LoadLibrary`, which
-  ignores `os.add_dll_directory`.
-
-## When it doesn't work
-
-**Hotkey won't register.** Something else owns it. Free on my machine:
-`ctrl+alt+d`, `ctrl+shift+d`, `ctrl+alt+v`, `ctrl+alt+q`, `win+f9`, `win+f8`,
-`ctrl+alt+f9`, `ctrl+shift+f12`. Taken: `ctrl+alt+space`, `win+space` (language
-switcher), `win+h` (Windows' own voice typing), `win+alt+d` (widgets). Try one
-with `--hotkey`, then keep it with `--setup`.
-
-**Out of VRAM.** large-v3 holds ~2.2 GB. If you're gaming at the same time, go
-to `"local_model": "medium"` (~1 GB) or `"local_device": "cpu"`. CPU is 5-8x
-slower, which is still fine for short clips.
-
-**Silence, or a near-zero peak in `--test`.** The Quadcast has a touch mute on
-top, so check its LED. Then check `--devices`: Windows likes to default to a
-SteelSeries Sonar virtual device instead of the actual microphone.
-
-**Text landed in the wrong window.** It pastes wherever focus is when
-transcription *finishes*, not where it was when you started talking.
-
-**Transcript prints but nothing pastes.** Elevated windows reject synthetic
-input from a process that isn't. Run imla elevated too, or use `--no-paste`
-and paste it yourself.
-
-**Model downloads all over again.** Something overrode `HF_HOME`. The cache
-belongs in `%USERPROFILE%\.cache\huggingface`.
