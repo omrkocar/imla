@@ -1,13 +1,15 @@
 # imla
 
-Push-to-talk dictation for Windows. Hit the hotkey, talk, hit it again. What you
-said gets transcribed and pasted into whatever window has focus.
+Push-to-talk dictation for Windows, running Whisper large-v3 on your own GPU.
+Hit the hotkey, talk, hit it again: the model transcribes what you said, sorts
+out the punctuation and capitalisation, and the text lands in whatever window
+has focus.
+
+It runs through faster-whisper, entirely on the local machine. No API key, no
+account, no per-use cost, and no audio leaving the computer.
 
 I wrote it to dictate prompts into Claude Code, but it works anywhere Ctrl+V
 does.
-
-Whisper runs locally on the GPU through faster-whisper, so there's no API key,
-no account, and no audio leaving the machine.
 
 ## Setup
 
