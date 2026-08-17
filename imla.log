@@ -1,0 +1,316 @@
+Loading large-v3...
+voicetype ready - ctrl+shift+space to start and stop
+microphone: Microphone (HyperX Quadcast)
+model: large-v3 on cuda (int8_float16)
+language: auto-detect   paste: on
+Ctrl+C in this window to quit.
+
+[13:55:07] recording (16000 Hz, 1 ch)
+[13:55:09] no speech detected
+[13:55:13] recording (16000 Hz, 1 ch)
+[13:55:15] 1.3s audio -> 0.7s | Merhaba.
+[13:55:17] recording (16000 Hz, 1 ch)
+[13:55:24] 5.4s audio -> 0.7s | Öncelikle merhaba, bir kod çalıştırmanı istiyorum.
+[13:56:13] recording (16000 Hz, 1 ch)
+[13:56:25] 10.5s audio -> 1.5s | Eee şey öncelikle merhaba. Bana bir program çalıştırmanı istiyorum. Eee ne olsun bilmiyorum ama.
+[13:56:44] recording (16000 Hz, 1 ch)
+[13:56:50] 4.4s audio -> 0.9s | Merhaba, bana bir kod çalıştırmanı istiyorum.
+[13:58:57] recording (16000 Hz, 1 ch)
+[13:59:03] 4.2s audio -> 0.8s | I want you to run a program for me.
+[14:05:14] recording (16000 Hz, 1 ch)
+[14:05:35] 17.9s audio -> 2.8s | Şu an bu projenin içerisinde bana sorular sorarak senden identity, cloud ve soul.md'yi çıkartmanı istiyorum. Aynı zamanda user.md'yi de çıkartmanı istiyorum. Bu sayede bu klasörde efektif bir şekilde çalışabilirsin. Bana sorular sor ve beni yönlendir.
+[14:50:52] recording (16000 Hz, 1 ch)
+[14:50:52] no speech detected
+[14:50:59] recording (16000 Hz, 1 ch)
+[14:51:00] no speech detected
+[15:12:35] recording (16000 Hz, 1 ch)
+[15:12:36] no speech detected
+[15:12:45] recording (16000 Hz, 1 ch)
+[15:12:50] 4.4s audio -> 0.7s | Merhaba, öncelikle benim sesimi duyuyor musun?
+[15:13:52] recording (16000 Hz, 1 ch)
+[15:14:54] 56.2s audio -> 4.9s | Malumundur, günde 4-5 saat kitap okumaya çalışıyorum. İlim tahsili içerisindeyim. E tabi bir de bir yandan 9-5 mesai çalışıyorum. E bunun yanında bir de ben başka bir işe geçmeye çalışıyorum. Ona da ayrı bir çalışma gayretindeyim. Ama tabi bunların hepsi bir yanda olmuyor. Bunlarla ilgili beraber seninle konuşmuştuk daha önce. Fakat yani kenardan insanlara bakıyorum. Böyle projelerle, işte artık nelerse kreatif şeylerle falan veya yapay zekayı kullanarak, cloud'u vesaire senin yani kullanarak paralar kazanıyorlar. Kenardan hani pasif gelirleri oluyor. Ayda mesela 300-500 bile gelse çok güzel bir şey. Yani böyle bir şey ben bir türlü giremedim. Bunu nasıl yaparım? Bana böyle fikirler mi sunsan?
+[15:15:39] recording (16000 Hz, 1 ch)
+[15:16:18] 36.2s audio -> 3.4s | Benim hala hazırdaki şartlarımı, potansiyelimi düşünerek bana özel şeyler sun. Unity tool'ları vesaire önerme. Onlar gibi değil. Yani oyun yapma vesaire de olmuyor. Bunlar çok uzun vadeli şeyler. Yani hakikaten bunların çünkü mesela oyun yapmak istesem marketing meselesi var. Bunun haricinde başka çok çok çok vakit isteyen şeylere giremiyorum. Çünkü ben hala hazırda 4-5 saat kitap okuyorum. Bunları düşünerek bana bir şeyler sun.
+[15:47:41] recording (16000 Hz, 1 ch)
+[15:48:11] 28.4s audio -> 2.0s | Hem gamedev hem de software rezümemi personal folder'ına koydum. Oradan ikisini de check edip benim şu an rezümelerimde problemli kısımları, keywordleri, özellikle keywordleri bir gözden geçirebilir misin? Onları bütün bu algoritmalara göre analiz edip güzel doğru keywordler koyabilir misin?
+Loading large-v3...
+voicetype ready - ctrl+shift+space to start and stop
+microphone: Microphone (HyperX Quadcast)
+model: large-v3 on cuda (int8_float16)
+language: auto-detect   paste: on
+Ctrl+C in this window to quit.
+
+[10:54:07] recording (16000 Hz, 1 ch)
+[10:54:22] failed: 'charmap' codec can't encode characters in position 42-43: character maps to <undefined>
+[10:54:37] recording (16000 Hz, 1 ch)
+[10:55:13] failed: 'charmap' codec can't encode characters in position 42-43: character maps to <undefined>
+[10:55:47] recording (16000 Hz, 1 ch)
+[10:55:49] 1.5s audio -> 0.7s | Merhaba
+[10:55:53] recording (16000 Hz, 1 ch)
+[10:55:57] failed: 'charmap' codec can't encode characters in position 41-42: character maps to <undefined>
+[10:56:00] recording (16000 Hz, 1 ch)
+[10:56:05] failed: 'charmap' codec can't encode characters in position 41-42: character maps to <undefined>
+[10:56:08] recording (16000 Hz, 1 ch)
+[10:56:10] failed: 'charmap' codec can't encode characters in position 41-42: character maps to <undefined>
+[10:56:16] recording (16000 Hz, 1 ch)
+[10:56:18] failed: 'charmap' codec can't encode characters in position 39-40: character maps to <undefined>
+[10:56:24] recording (16000 Hz, 1 ch)
+[10:56:27] failed: 'charmap' codec can't encode characters in position 41-42: character maps to <undefined>
+[11:00:47] recording (16000 Hz, 1 ch)
+[11:00:52] failed: 'charmap' codec can't encode character '\u011f' in position 66: character maps to <undefined>
+Loading large-v3...
+voicetype ready - ctrl+shift+space to start and stop
+microphone: Microphone (HyperX Quadcast)
+model: large-v3 on cuda (int8_float16)
+language: auto-detect   paste: on
+Ctrl+C in this window to quit.
+
+[11:02:41] recording (16000 Hz, 1 ch)
+[11:02:46] 3.5s audio -> 1.7s | Benim sistematime uygun bir test edelim bakalım.
+[11:03:07] recording (16000 Hz, 1 ch)
+[11:03:10] 2.1s audio -> 0.8s | Benim sistematiğime uygun.
+[11:03:16] recording (16000 Hz, 1 ch)
+[11:03:21] 3.5s audio -> 1.2s | Benim sistem adıya uygun bir test yapalım o zaman.
+[11:03:29] recording (16000 Hz, 1 ch)
+[11:03:59] 26.1s audio -> 3.3s | Benim çalışma ortamımı biliyorsun, ilimle iştigal ettiğimi de biliyorsun. Bütün bunları düşünerek benim kullanmadığım ama kullansam benim için çok yararlı olacak tool'lar aklına geliyor mu? Mesela eğer böyle bir şey public'te yoksa bile beraber kodlayabileceğimiz, beraber yapabileceğimiz bir tool, bir program benim işimi kolaylaştıracak bir şey var mıdır sence?
+[11:35:06] recording (16000 Hz, 1 ch)
+[11:35:50] 39.1s audio -> 5.1s | Tabi şöyle bir mesele var. Obsidian'da benim yazdığım notlar böyle biraz karmakarışık. Yani metnin tamamı değil. O yüzden acaba hani ders metnini mi, transkriptini göndersem de öyle mi yapsak? Yoksa nasıl olsun? Çünkü benim notlar çok az not alıyorum ben orada hani Obsidian'da özellikle. Çünkü bazen kalemle alıyorum bazen şeyle. Obsidian'da bütün notlarım olmuyor. Bazen metnin üzerine not alıyorum. Bunu nasıl yapsak? Çünkü eğer oradan kontrol ederek yaparsak çok az şey çıkar yani ben o hani 3-5 nottan takdir 20 saniyeden fazla takdir yapamayabilirim.
+[14:56:00] recording (16000 Hz, 1 ch)
+[14:56:51] 47.7s audio -> 3.3s | There's a bug where enemies disengage or enter disengagement state when hasAllPartnersDisengaged method is true. This was implemented before for a specific case, I think, but when an enemy's partner disengages, let's say, or is just not in combat, the main enemy does not engage because the partner is disengaged, and this causes this loop of engagement and disengagement. Make a plan to see how to fix this problem.
+[15:07:09] recording (16000 Hz, 1 ch)
+[15:07:44] 32.6s audio -> 2.5s | I think that one will not fix this issue because, say, enemies have engaged in combat once and then they went back to their pre-combat position. Now, they will still have this issue the next time the enemies try to engage because now the partner has engaged once, right, before this combat, and now it's going to have the race condition again.
+Loading large-v3...
+voicetype ready - ctrl+shift+space to start and stop
+microphone: Microphone (HyperX Quadcast)
+model: large-v3 on cuda (int8_float16)
+language: auto-detect   paste: on
+Ctrl+C in this window to quit.
+
+[09:22:06] recording (16000 Hz, 1 ch)
+[09:22:16] no speech detected
+[09:22:20] recording (16000 Hz, 1 ch)
+[09:22:30] 8.6s audio -> 1.2s | Akadlarda Sargun'un torunu olan Naramsin kendini tanrı ilan etti mi?
+Loading large-v3...
+voicetype ready - ctrl+shift+space to start and stop
+microphone: Microphone (HyperX Quadcast)
+model: large-v3 on cuda (int8_float16)
+language: auto-detect   paste: on
+Ctrl+C in this window to quit.
+
+[10:38:23] recording (16000 Hz, 1 ch)
+[10:38:56] 28.0s audio -> 4.2s | Kostko'dan falan araba için, araba temizleme için bir şeyler alacağım. Malzeme, işte silecek, onun işte temizlik suyu, fırçadır, şeydir. Onların hepsini bana sıralayabilir misin, listeleyebilir misin? Minimal seviyede nelere ihtiyacım var? İç-dış temizlik yapacağım arabanın.
+[10:39:08] recording (16000 Hz, 1 ch)
+[10:39:45] 33.2s audio -> 3.2s | Arabanın iç ve dış temizliğini yapacağım. Costco'dan malzeme almak istiyorum. Fırça, temizlik suyu, malzemeler vs. İç ve dış temizlik ve süpürcücem de aynı zamanda. Bunlar için Nissan Ariya olacak araba. Nissan Ariya için yani elektrikli herhangi bir şekilde bir yerini bozmak istemiyorum. Bunlar için Costco'dan malzeme almak istiyorum. Bana tek tek liste yapabilir misin? Minimal seviyede.
+[11:11:02] recording (16000 Hz, 1 ch)
+[11:11:12] 9.0s audio -> 1.0s | Akadılar ilk Sami kavmiymiş. Sami burada ne demek yani?
+[11:38:39] recording (16000 Hz, 1 ch)
+[11:39:01] 19.8s audio -> 1.4s | it comes from enemy brain and then it calls enemy that on decision made and on entered combat boolean is not actually set to true and then engagement feedback doesn't play so
+Loading large-v3...
+voicetype ready - ctrl+shift+space to start and stop
+microphone: Microphone (HyperX Quadcast)
+model: large-v3 on cuda (int8_float16)
+language: auto-detect   paste: on
+Ctrl+C in this window to quit.
+
+[09:45:50] recording (16000 Hz, 1 ch)
+[09:46:33] 36.7s audio -> 5.9s | Bu dosyayı beraber oluşturmuştuk hatırlarsan bunu editlemek istiyorum yani bu exe dosyası ne üzerinden oluşturuldu hatırlamıyorum ama bu terminali açtığımda bunun ile yani wt.exe.lnk ile açtığımda otomatik olarak voice type'ın yani bizim oluşturduğumuz o plugin'in açılması gerekiyor. Yani otomatik olarak önce voice type olsun ondan sonra terminal açılsın istiyorum.
+Loading large-v3...
+voicetype ready - ctrl+shift+space to start and stop
+microphone: Microphone (HyperX Quadcast)
+model: large-v3 on cuda (int8_float16)
+language: auto-detect   paste: on
+Ctrl+C in this window to quit.
+
+[09:50:12] recording (16000 Hz, 1 ch)
+[09:50:15] no speech detected
+[17:16:47] recording (16000 Hz, 1 ch)
+[17:17:03] 14.8s audio -> 1.2s | Hangi alanda hangi kitaplardan okuma yaptım bunları zihnine yerleştir. Daha sonra önce bunu yap ondan sonra konuşalım.
+[17:17:12] recording (16000 Hz, 1 ch)
+[17:17:37] 22.2s audio -> 2.3s | Bu bilgin üzerinden sana defalarca soru soracağım ileride. O yüzden bu bilgiler önemli. Eğer hafızana atamayacak kadar büyük bilgilerse bunlar. O zaman da sana okuduğum kitaplarla ilgili soru sorduğumda bu database'e gidip bakmanı istiyorum.
+[17:31:14] recording (16000 Hz, 1 ch)
+[17:31:25] 9.6s audio -> 1.4s | Böyle bir seçenek yok Notion'da. İnternetten araştır ve sayfaları nasıl kısıtlayacağını bana göster.
+[17:37:44] recording (16000 Hz, 1 ch)
+[17:37:57] 11.1s audio -> 1.2s | Okuduklarıma binaen sana en başta sorduğum gibi boş vakitlerimde nelerden okuma yapsam.
+[17:37:58] recording (16000 Hz, 1 ch)
+[17:38:02] 3.0s audio -> 0.6s | bana bir plan çıkar.
+[21:41:40] recording (16000 Hz, 1 ch)
+[21:41:51] 10.0s audio -> 1.0s | Bana şöyle bir tool yazmanı istiyorum, Markdown'ı PDF'e çevirsin.
+Loading large-v3...
+voicetype ready - ctrl+shift+space to start and stop
+microphone: Microphone (HyperX Quadcast)
+model: large-v3 on cuda (int8_float16)
+language: auto-detect   paste: on
+Ctrl+C in this window to quit.
+
+[10:29:10] recording (16000 Hz, 1 ch)
+[10:29:16] no speech detected
+[10:31:35] recording (16000 Hz, 1 ch)
+[10:32:07] 29.1s audio -> 2.6s | Dersten önce neler yapmam gerektiğini, emsileyi ezberleyip ezberlemem gerekip gerekmediğini, daha sonra emsileyi anlatırken her derste ne kadar, bir saat mi anlatmam mı, konu konu mu, nasıl geçmem gerektiği vs. Bunlarla ilgili usule uygun kaidelerle ders anlatış tekniklerini söyle.
+[10:32:12] recording (16000 Hz, 1 ch)
+[10:32:55] 38.5s audio -> 4.3s | Dersden önce nasıl hazırlanmam gerektiğini, ders metinlerini, emsileyi, binayı, avamiliği ezberleyip ezberlememem gerektiğini. Çünkü emsileyi ben ezbere bilmiyorum. Binayı da ezberlemiştim fakat unuttum. Avamiliği de ezberlemedim. Hepsini zaten bir kere okudum. Muazzam hatırımda da değil. Ama Muni'yi çalıştığım için artık konulara hakimim az çok. Tabii şimdi çalışacağım daha da bir pekiştireceğim. Emsiliği anlatırken nasıl bir teknik şey yapayım? Yani ders anlatma tekniklerini vesaire de ekler misin avamili ders planına?
+[10:32:57] recording (16000 Hz, 1 ch)
+[10:33:05] 6.8s audio -> 1.1s | Mark Down'ın adını da farklı bir şey yap. Ders planını yap. Ama ameli değil artık çünkü.
+[11:39:27] recording (16000 Hz, 1 ch)
+[11:39:36] 8.1s audio -> 1.3s | الأمثلة جمع مثالي وهو مصطر من المفاعلة بمعنى المقولها هنا
+[13:40:12] recording (16000 Hz, 1 ch)
+[13:40:22] 8.3s audio -> 1.5s | Acem ekolü ile Arap ekolünü karşılaştır. Metinleri, usulleri nelerdir? Kısaca.
+[14:08:38] recording (16000 Hz, 1 ch)
+[14:09:09] 28.0s audio -> 2.8s | Yani kronolojik, baştan sona Kanada tarihini, politikasını vs. anlatan bir kitap arıyorum. Yani ne iki tarafın bir borazanlığını yapsın ne de çok bilgiye değinmeden anlatsın. Bana böyle güzel, sanki böyle şey gibi, Introduction to the History of Canada gibi konulu bir kitap arıyorum.
+[14:09:13] recording (16000 Hz, 1 ch)
+[14:09:29] no speech detected
+[14:09:30] recording (16000 Hz, 1 ch)
+[14:10:11] 37.0s audio -> 3.1s | Yani Kanada tarihini ne Anglo merkezli ne de karşı tarafın böyle borazanlığını yapan, bir tarafın partizanlığını yapan bir şekilde okumak istiyorum. Ne de bilgilere böyle az az kısaca değinsin istiyorum. Böyle genel sanki an introduction to the history of Canada adı altında gibi böyle bir Kanada tarihine giriş hem politikası hem tarihi hem kültürüne değinen böyle tam teşekküllü bir kitap arıyorum.
+Loading large-v3...
+voicetype ready - ctrl+shift+space to start and stop
+microphone: Microphone (HyperX Quadcast)
+model: large-v3 on cuda (int8_float16)
+language: auto-detect   paste: on
+Ctrl+C in this window to quit.
+
+[07:32:28] recording (16000 Hz, 1 ch)
+[07:32:34] still transcribing the last clip, ignoring
+[07:32:36] no speech detected
+[07:32:59] recording (16000 Hz, 1 ch)
+[07:33:22] 20.1s audio -> 2.3s | Şamela uygulamasını bu dosyaya attım. Ancak bir de MCP'sini buldum. Şimdi Şamela'yı ben MCP'siyle uygulanmak istiyorum. Ki yapay zekayı kullanıp yani seni istediğim şeyleri bulabileyim. Bu MCP'yi yüklemeni istiyorum.
+[10:30:56] recording (16000 Hz, 1 ch)
+[10:31:46] 46.6s audio -> 3.7s | Kanada'ya dünyanın herhangi bir yerinden Arapça kitap getirtmek istiyorum. Bunun için en ucuz, en az maliyetli olacak siteleri arıyorum veya yöntemleri arıyorum. Tanıdık pek yok, o yüzden online bir site olursa daha iyi olur. Bunun için bütün dünyadaki siteleri, herhangi bir yerdeki en ucuz olabilecek, kargonun en az tutacağı yerleri, Kanada içi veya dışı her yeri bulmasını istiyorum. Bunun için başka bir AI agent'a prompt yazmanı istiyorum.
+[15:37:14] recording (16000 Hz, 1 ch)
+[15:37:33] 16.5s audio -> 1.6s | هنا يوجد شيء مثل هذا في المتن والتحقيق أنه من باب الكلية لا الكل بدليل قوله للمصطفى بل بعض ذلك قد كان
+[16:17:42] recording (16000 Hz, 1 ch)
+[16:18:10] 26.3s audio -> 2.0s | Before our change, the assets were being kept in the used asset IDs in the save file. We still have that, but our change does what exactly? How does it fix the problem? Because we were previously keeping track of the used assets, and wasn't that solving the issue?
+[16:44:03] recording (16000 Hz, 1 ch)
+[16:44:12] 8.9s audio -> 0.8s | Is it in any way possible that clear is fired between the reload?
+Loading large-v3...
+voicetype ready - ctrl+shift+space to start and stop
+microphone: Microphone (HyperX Quadcast)
+model: large-v3 on cuda (int8_float16)
+language: auto-detect   paste: on
+Ctrl+C in this window to quit.
+
+[08:25:26] recording (16000 Hz, 1 ch)
+[08:25:29] no speech detected
+Loading large-v3...
+voicetype ready - ctrl+shift+space to start and stop
+microphone: Microphone (HyperX Quadcast)
+model: large-v3 on cuda (int8_float16)
+language: auto-detect   paste: on
+Ctrl+C in this window to quit.
+
+[08:36:15] recording (16000 Hz, 1 ch)
+[08:36:19] 2.5s audio -> 1.5s | نافحة
+[13:00:46] recording (16000 Hz, 1 ch)
+[13:00:57] 9.7s audio -> 1.5s | Ana gayem zaten mevcut kilomu az çok koruyup kas kütlemi artırmak.
+[13:01:00] recording (16000 Hz, 1 ch)
+[13:01:15] 13.2s audio -> 1.5s | Benim için her üç gün için ayrı olarak program çıkartmanı istiyorum. Herhangi bir sorun varsa bana sorabilirsin.
+[13:11:39] recording (16000 Hz, 1 ch)
+[13:12:20] 37.8s audio -> 3.9s | bu bütün planı bir belge olarak ekle bütün bu hareketlerin tamamını da YouTube'dan linklerini bularak veya internetten hareketlerinin resimlerini gösteren bir yerden bul ve linklerini oraya eklemeni istiyorum her birinin altına ama rahat olsun yani kolay bulunabilir olsun 3 dakika 5 dakika video olmasın hemen girdiğim gibi göreyim bir de kadın olmasın kadın resmi yani erkek gösteriyor olsun ya da çizgi olsun
+[13:32:27] recording (16000 Hz, 1 ch)
+[13:33:11] 39.5s audio -> 4.3s | Benim programımı az çok biliyorsun. Sabahları kitap okuyorum. Akşamları da bir saat kitap okuyorum. Öğle aramda da genellikle yemek yiyorum vesaire. Muhtemelen beşten sonra gym'e gideceğim. Ancak sekiz saat uyumuyorum ben biliyorsun. Altı buçuk, yedi saat uyuyorum. Kilom yaklaşık yetmiş sekiz. Boyum da bir yetmiş dokuzu gibi bir şey. Bana göre bir protein, bir beslenme şeyi falan önerir misin? Tek tek şunları şunları yediği değil de daha genel yukarıdan bir bakış olarak.
+[15:55:25] recording (16000 Hz, 1 ch)
+[15:55:39] 12.0s audio -> 1.7s | Benim bildiğimi bilseydiniz az güler çok ağlardınız. Hadisini Şamela'da bulmanı istiyorum.
+Loading large-v3...
+voicetype ready - ctrl+shift+space to start and stop
+microphone: Microphone (HyperX Quadcast)
+model: large-v3 on cuda (int8_float16)
+language: auto-detect   paste: on
+Ctrl+C in this window to quit.
+
+[10:03:33] recording (16000 Hz, 1 ch)
+[10:04:07] 29.4s audio -> 4.2s | prophecies are not updated when I go into the prophecy menu. So they need to be updated at runtime so that when I clear the prophecies as well the UI also shows that instead of the old cached view where prophecies were actually acquired.
+[12:12:53] recording (16000 Hz, 1 ch)
+[12:13:25] 28.7s audio -> 2.4s | Şerh-ül Muni okuyorum Meylani'nin şerhi ile. Burada diyor ki, Arapçasından okuyorum şimdi. Kelimetun mi fethil kaf ve kesrillah ve hiye lügatul hicaziyah ve cem'uha kelime. Kezalike bi la ta'in.
+[12:21:29] recording (16000 Hz, 1 ch)
+[12:21:37] no speech detected
+[12:21:41] recording (16000 Hz, 1 ch)
+[12:21:48] 5.8s audio -> 0.7s | وفي كلمته
+[12:21:52] recording (16000 Hz, 1 ch)
+[12:22:11] 17.3s audio -> 1.8s | وفي الكلمة الثلاث لغات إحداها كلمة بفتح الكاف وكسر اللام وهي اللغات الحجازية وجمعها كلم كذلك بلا تاء
+[12:28:48] recording (16000 Hz, 1 ch)
+[12:28:59] 8.9s audio -> 1.2s | Arapçada kelem veya kelime ifadesi kelemeden mi geliyor? Yani kelemeden geliyor yaralamaktan.
+[12:29:07] recording (16000 Hz, 1 ch)
+[12:29:52] 40.6s audio -> 4.0s | Arapçada kelime, kelemeden geliyor anladığım kadarıyla. Yani yaralamaktan. Bunun sebebi de, yani cerrahın mesela şeyi, hastayı tedavi ederken ona, vücuduna nasıl etki ediyorsa kelime de muhatabın zihninde bir etki bırakıyormuş. O yüzden kelime ifadesi buradan geliyormuş ama beni yani tatmin etmedi tam. Meylani böyle söylüyor. Gerçekten böyle mi? Çünkü yani yaralamanın tek şeyi eser, tesir bırakmak mı yani? Tesir etmek mi?
+[12:34:21] recording (16000 Hz, 1 ch)
+[12:34:28] 6.0s audio -> 0.7s | قول دال على ماهية شيء
+[12:35:04] recording (16000 Hz, 1 ch)
+[12:35:08] 3.7s audio -> 0.8s | لف وضع لمعنى مفرد
+[12:39:35] recording (16000 Hz, 1 ch)
+[12:39:57] 20.0s audio -> 1.7s | Hayır sana sordum yani böyle her terim için ayrı bir kart mı yapalım yoksa terim artı kaynak olarak ayrı bir kart mı yapalım? Yani bir ilim talebesi için çalışma şekli nasıl en iyi olmalı?
+[12:55:09] recording (16000 Hz, 1 ch)
+[12:55:25] 14.2s audio -> 1.8s | وإنما لم يقل لفظة بتوافق المبتدأ في التأميث لأن اللفظ في الأصل مصدر ففي المصدر يستوي التذكير والتأميث
+[13:45:01] recording (16000 Hz, 1 ch)
+[13:45:14] 11.9s audio -> 1.1s | So now is there a much difference between remove saved entries and reset all prophecy data methods
+[13:57:25] recording (16000 Hz, 1 ch)
+[13:57:30] 4.2s audio -> 1.0s | فهم أمري فهم أمري
+[13:57:32] recording (16000 Hz, 1 ch)
+[13:57:35] 2.7s audio -> 0.8s | FÆHMO EMRIN
+[13:57:53] recording (16000 Hz, 1 ch)
+[13:58:08] 13.4s audio -> 1.3s | التلالة بحسب تعريف المنادق كون أمر بحيث يفهم منه أمر آخر
+[13:58:16] recording (16000 Hz, 1 ch)
+[13:58:26] 8.7s audio -> 1.1s | قوله كون أمر أي بحالته بحيث يلزم من العلم به العلم بأمر آخر
+[14:59:21] recording (16000 Hz, 1 ch)
+[15:00:04] 39.4s audio -> 3.6s | Efendimizin Hintliler gibi görünen bu insanlar kimdir diye sorduğu Beni Haris bin Ka'b kabilesi hakkında bilgi verir misin? Efendimiz şöyle demiş. Siz misiniz savaşa soyunluklarında ilerleyenler? Onlar da evet biziz deyince eğer Halid bana sizin Müslüman olduğunuzu ve savaşmadığınızı yazmasaydı şimdi kafalarınızı ayaklarınızın altına atardım demiş. Daha sonra devam ediyor rivayet. Bununla ilgili ne söylemek istersin ve bu rivayetin sahihliği ile ilgili?
+Loading large-v3...
+voicetype ready - ctrl+shift+space to start and stop
+microphone: Microphone (HyperX Quadcast)
+model: large-v3 on cuda (int8_float16)
+language: auto-detect   paste: on
+Ctrl+C in this window to quit.
+
+[09:47:23] recording (16000 Hz, 1 ch)
+[09:47:28] no speech detected
+[09:47:32] recording (16000 Hz, 1 ch)
+[09:47:43] 9.3s audio -> 1.3s | Sağlığımı geliştirecek yöntemler, şeyler, ürünler, yapıp yapmamam gereken şeyler hepsini sıralayabilir misin?
+[09:53:03] recording (16000 Hz, 1 ch)
+[09:53:22] 15.6s audio -> 2.4s | 11 ile 5.45 arasında uyuyan birisi için uyku şeyi nedir? Uyku fazları. 4 tane faz vardı ya herhalde. Rem uykusu vs. Onları bana söyleyebilir misin? Sen yoksa?
+[11:25:54] recording (16000 Hz, 1 ch)
+[11:26:16] 19.9s audio -> 1.6s | Taberi'nin Camiül Beyan tefsirinin hangi yayın evinden adayı bu üç resimden hepsini kontrol edip şey yapabilir misin? Hem kağıt kalitesi hem işte genel olarak saygınlığı vs.
+[11:30:33] recording (16000 Hz, 1 ch)
+[11:30:47] 13.2s audio -> 1.5s | Senin dediğin taberi tefsiri yaklaşık 900 Amerikan Doları. Yani onu almanın imkanı yok. O yüzden şunu sormuştum zaten. O zaman Darül Alemiye'yi eneriyorsun. Peki bu...
+[11:31:14] recording (16000 Hz, 1 ch)
+[11:31:18] 3.1s audio -> 0.7s | الدار الحديث
+[11:31:20] recording (16000 Hz, 1 ch)
+[11:31:40] 17.5s audio -> 1.9s | Yayın evine ne düşünüyorsun? Yani ortalama bir bütçesi olan birisi için. Bu mu alınsın yoksa her türlü Darül Alemiye mi? Yani bu Darül Hadis tefsirindeki kötü mü yoksa hani...
+Loading large-v3...
+voicetype ready - ctrl+shift+space to start and stop
+microphone: Microphone (HyperX Quadcast)
+model: large-v3 on cuda (int8_float16)
+language: auto-detect   paste: on
+Ctrl+C in this window to quit.
+
+Loading large-v3...
+voicetype ready - ctrl+shift+space to start and stop
+microphone: Microphone (HyperX Quadcast)
+model: large-v3 on cuda (int8_float16)
+language: auto-detect   paste: on
+Ctrl+C in this window to quit.
+
+[10:40:14] recording (16000 Hz, 1 ch)
+[10:40:36] 19.0s audio -> 3.6s | Benim Obsidian'da ilim klasörüne bak. Orada 00-literatür adı altında mantık ve münazara derslerinin notlarını yazıyorum. Ama ben bunların hiçbirini 10'a geçirmedim. 10-kalıcıya. Bu geçişi nasıl yapmalıyım?
+[10:44:49] recording (16000 Hz, 1 ch)
+[10:45:31] 37.4s audio -> 4.1s | Sorun şu ki mesela Obsidian'da aldığım notlar çok kısa oluyor. 2 saatlik dersten belki bazen 10 satır not alıyorum. Bunları bir de ekstra daha sonra üstüne çalışıp bunlardan ekstra not çıkarmam çok mümkün olmuyor. Zaten 0-0'a yazdığım notlar, derste duyduğum notlar falan oluyor. Ya bunları direkt kopyalayacağım kalıcıya ya da ekstra bir yerden okuma yapmam lazım. Bilmiyorum.
+[06:29:30] recording (16000 Hz, 1 ch)
+[06:29:35] 3.7s audio -> 0.9s | Merci d'être venu.
+[06:29:46] recording (16000 Hz, 1 ch)
+[06:30:15] 27.0s audio -> 1.8s | مقصوده بالحدود هاهنا الرسول والحدود وإلا فإنه على ما سيبينه من أن الحكم هاهنا هو الصفة اللازمة عن الماهية فإنه لا يتصور أن تدخل الأحكام في نفس الحدود بدلا من بعد الذاتيات
+[06:41:21] recording (16000 Hz, 1 ch)
+[06:41:22] no speech detected
+[09:54:08] recording (16000 Hz, 1 ch)
+[09:54:09] no speech detected
+[09:54:12] recording (16000 Hz, 1 ch)
+[09:54:35] 21.4s audio -> 1.8s | Medreselerde okutulan kitapları, başka bütün temel, klasik kitapları bul ve getir. Ondan sonra benim okuma sürecimi düşün. Bunlara göre en uygun kitabı benim için bul.
+Loading large-v3...
+voicetype ready - ctrl+shift+space to start and stop
+microphone: Microphone (HyperX Quadcast)
+model: large-v3 on cuda (int8_float16)
+language: auto-detect   paste: on
+Ctrl+C in this window to quit.
+
+[08:57:31] recording (16000 Hz, 1 ch)
+[08:57:48] 13.7s audio -> 3.1s | أنه لا يجوز لك في تقسيم الكل إلى أجزاء وذلك جائز في تقسيم الكلي إلى جزئيات
+Loading large-v3...
+imla ready - ctrl+shift+space to start and stop
+microphone: Microphone (HyperX Quadcast)
+model: large-v3 on cuda (int8_float16)
+language: auto-detect   paste: on
+Ctrl+C in this window to quit.
+
