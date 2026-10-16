@@ -17,6 +17,7 @@ import io
 import json
 import os
 import queue
+import re
 import subprocess
 import sys
 import threading
@@ -31,6 +32,21 @@ from urllib import request as urlrequest
 import sounddevice as sd
 
 CONFIG_PATH = Path(os.environ["APPDATA"]) / "imla" / "config.json"
+WORDS_PATH = CONFIG_PATH.parent / "words.txt"
+
+WORDS_TEMPLATE = """\
+# imla vocabulary - names and terms Whisper should know.
+#
+# Lines starting with # are ignored. Write your words BELOW the dashed line,
+# one per line, without a leading #:
+#
+#     Word
+#     Word = how Whisper misspells it, another misspelling
+#
+# The part after '=' is the safety net: imla replaces those spellings with
+# the word, whatever their case. Read on every transcription, no restart.
+# ---------------------------------------------------------------------------
+"""
 
 DEFAULT_CONFIG = {
     "backend": "local",                    # local | api
@@ -125,6 +141,47 @@ def save_config(cfg: dict) -> None:
     CONFIG_PATH.write_text(json.dumps(stored, indent=2), encoding="utf-8")
     if stored.get("api_key"):
         os.system(f'icacls "{CONFIG_PATH}" /inheritance:r /grant:r "%USERNAME%":F >nul 2>&1')
+
+
+def load_words() -> tuple[list[str], list[tuple[re.Pattern, str]]]:
+    """Terms to bias Whisper towards, and alias -> term fixes for afterwards."""
+    try:
+        lines = WORDS_PATH.read_text(encoding="utf-8-sig").splitlines()
+    except OSError:
+        return [], []
+
+    terms, fixes = [], []
+    for line in lines:
+        line = line.split("#", 1)[0].strip()
+        if not line:
+            continue
+        term, _, aliases = line.partition("=")
+        term = term.strip()
+        if not term:
+            continue
+        terms.append(term)
+        for alias in aliases.split(","):
+            alias = alias.strip()
+            if alias:
+                pattern = re.compile(rf"(?<!\w){re.escape(alias)}(?!\w)", re.IGNORECASE)
+                fixes.append((pattern, term))
+    return terms, fixes
+
+
+def apply_word_fixes(text: str, fixes: list[tuple[re.Pattern, str]]) -> str:
+    for pattern, term in fixes:
+        text = pattern.sub(term, text)
+    return text
+
+
+def add_word(entry: str) -> None:
+    if not WORDS_PATH.exists():
+        WORDS_PATH.parent.mkdir(parents=True, exist_ok=True)
+        WORDS_PATH.write_text(WORDS_TEMPLATE, encoding="utf-8")
+    existing = WORDS_PATH.read_text(encoding="utf-8-sig")
+    sep = "" if existing.endswith("\n") or not existing else "\n"
+    with WORDS_PATH.open("a", encoding="utf-8") as f:
+        f.write(f"{sep}{entry.strip()}\n")
 
 
 class Recorder:
@@ -243,14 +300,18 @@ class LocalTranscriber:
         return f"{self.cfg['local_model']} on {self.device} ({self.compute})"
 
     def transcribe(self, wav_bytes: bytes) -> str:
+        terms, fixes = load_words()
+        # hotwords reach every 30 s window; initial_prompt only the first.
         segments, _info = self.model.transcribe(
             io.BytesIO(wav_bytes),
             language=self.cfg["language"] or None,
             initial_prompt=self.cfg["prompt"] or None,
+            hotwords=", ".join(terms) or None,
             beam_size=self.cfg["local_beam_size"],
             vad_filter=True,
         )
-        return " ".join(s.text.strip() for s in segments).strip()
+        text = " ".join(s.text.strip() for s in segments).strip()
+        return apply_word_fixes(text, fixes)
 
 
 class ApiTranscriber:
@@ -266,18 +327,20 @@ class ApiTranscriber:
         return f"{self.cfg['api_model']} via {host}"
 
     def transcribe(self, wav_bytes: bytes) -> str:
+        terms, fixes = load_words()
+        prompt = " ".join(p for p in (self.cfg["prompt"], ", ".join(terms)) if p)
         fields = {
             "model": self.cfg["api_model"],
             "response_format": "json",
             "language": self.cfg["language"],
-            "prompt": self.cfg["prompt"],
+            "prompt": prompt,
         }
         body, content_type = _multipart(fields, "audio.wav", wav_bytes)
         result = _post(
             f"{self.cfg['base_url'].rstrip('/')}/audio/transcriptions",
             body, content_type, self.cfg["api_key"],
         )
-        return (result.get("text") or "").strip()
+        return apply_word_fixes((result.get("text") or "").strip(), fixes)
 
 
 def make_transcriber(cfg: dict):
@@ -730,6 +793,9 @@ def main() -> None:
     parser.add_argument("--no-paste", action="store_true", help="copy to the clipboard instead of pasting")
     parser.add_argument("--hotkey", help="override the configured hotkey for this run")
     parser.add_argument("--model", help="override the model for this run")
+    parser.add_argument("--add-word", metavar="TERM",
+                        help="add a term to the vocabulary, e.g. \"Mecmua\" or \"Mecmua = Mejmua\"")
+    parser.add_argument("--words", action="store_true", help="list the vocabulary and exit")
     args = parser.parse_args()
 
     # Redirected stdout is block-buffered, which leaves imla.log looking
@@ -749,7 +815,14 @@ def main() -> None:
     if args.model:
         cfg["local_model" if cfg["backend"] == "local" else "api_model"] = args.model
 
-    if args.devices:
+    if args.add_word:
+        add_word(args.add_word)
+        print(f"added to {WORDS_PATH}")
+    elif args.words:
+        terms, _fixes = load_words()
+        print(f"{WORDS_PATH}\n")
+        print("\n".join(f"  {t}" for t in terms) or "  (empty)")
+    elif args.devices:
         cmd_devices()
     elif args.setup:
         cmd_setup(cfg)

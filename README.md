@@ -91,8 +91,29 @@ Two of these are worth setting properly.
 guesses wrong often enough on short clips to be annoying. Pinning
 `"language": "tr"` kills that off.
 
-`prompt`: Whisper conditions on it, so listing the project names and libraries
-you say constantly does visibly improve how it spells them.
+`prompt`: Whisper conditions on it, so a sentence in the style you dictate
+nudges punctuation and register. For names, use the vocabulary below instead.
+
+## Vocabulary
+
+Names and terms Whisper doesn't know go in `%APPDATA%\imla\words.txt`, one per
+line, spelled the way they should come out:
+
+```
+Mecmua
+Mecmua = Mejmua, Mecmuah
+```
+
+Each term is passed to Whisper as a hotword, which biases every 30-second
+window of a long clip rather than only the first. Anything after `=` is a
+fallback: if Whisper still writes one of those spellings, imla replaces it with
+the term (whole words, any case). `#` starts a comment. The file is reread on
+every transcription, so edits apply without a restart.
+
+```
+python imla.py --add-word "Mecmua"
+python imla.py --words
+```
 
 ## Flags
 
@@ -104,6 +125,8 @@ python imla.py --test 5      # record 5s, print it, don't paste
 python imla.py --no-paste    # clipboard only
 python imla.py --model medium
 python imla.py --hotkey ctrl+shift+d
+python imla.py --add-word "Mecmua"   # add to the vocabulary
+python imla.py --words       # list the vocabulary
 ```
 
 ## How it works
